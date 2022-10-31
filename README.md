@@ -1,4 +1,4 @@
-# DEMO : https://rick-and-morty-by-mihaic.herokuapp.com/
+ DEMO : https://rick-and-morty-by-mihaic.herokuapp.com/
 
 
 # Getting Started with Create React App
