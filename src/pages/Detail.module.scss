@@ -1,0 +1,68 @@
+@use "../styles/variables.scss";
+
+.loader {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+
+  svg {
+    fill: variables.$main-color;
+  }
+}
+
+.error {
+  align-items: center;
+  display: flex;
+  justify-content: center;
+  padding: 2rem;
+
+  p {
+    color: variables.$error;
+    font: variables.$fz-md variables.$font;
+  }
+}
+
+main {
+  margin: 0 auto;
+  padding: 0 10vw !important;
+}
+
+.content {
+  // margin: 0 auto;
+  margin-top: 20px;
+  font-size: 16px;
+  color: white;
+  display: flex;
+  // padding: 0 10vw;
+  
+  > div {
+    width: 100%;
+  }
+  img {
+    margin-right: 20px;
+  } 
+
+  h2 {
+    color: variables.$main-color;
+    font: bold 2.4rem variables.$font;
+    margin-bottom: 1rem;
+    text-align: center;
+  }
+
+  p {
+    color: variables.$secondary-text-color;
+    font: normal variables.$fz-lg variables.$font;
+    margin-bottom: 0.5rem;
+
+    strong {
+      color: variables.$secondary-color;
+    }
+
+    span {
+      height: 100%;
+      width: 100%;
+    }
+  }
+}
+
